@@ -2,8 +2,15 @@ import cosas.*
 
 describe "group of test for cosas" {
 
-  test "first test" {
-    assert.that(true)
+  method initialize() {
+      residuosRadiactivos.peso(30)
+      ladrillo.cantidad(10)
+      embalaje.embala(residuosRadiactivos)
+      contenedor.contiene(arenaAGranel)
+      contenedor.contiene(bateriaAntiaerea)
+      contenedor.contiene(ladrillo)
   }
-
+  test "" {
+    
+  }
 }
